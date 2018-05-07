@@ -5,10 +5,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
+      - zip -r /tmp/HelloWorld.zip
 
 artifacts:
   files:
-    - '**/*'
-    - deploy/*
-    - appspec.yml
+    - /tmp/HelloWorld.zip
   discard-paths: yes
