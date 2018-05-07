@@ -11,8 +11,7 @@
 
     <build>
         <finalName>HelloWorld</finalName>
-    </build>
-    <plugins>
+        <plugins>
           <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
             <version>3.5.1</version>
@@ -39,5 +38,6 @@
               <path>/</path>
             </configuration>
           </plugin>
-        </plugins> 
+        </plugins>
+    </build>
 </project>
