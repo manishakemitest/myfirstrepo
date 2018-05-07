@@ -9,3 +9,6 @@ phases:
 artifacts:
   files:
     - '**/*'
+    - deploy/*
+    - appspec.yml
+  discard-paths: yes
