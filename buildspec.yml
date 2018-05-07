@@ -5,7 +5,6 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - mkdir tmp
       - zip -r tmp/HelloWorld.zip *
 
 artifacts:
