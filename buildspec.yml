@@ -5,9 +5,9 @@ phases:
     commands:
       - echo Build completed on `date`
       - mvn package
-      - zip -r tmp/HelloWorld.zip *
+      - zip -r HelloWorld.zip *
 
 artifacts:
   files:
-    - tmp/HelloWorld.zip
+    - HelloWorld.zip
   discard-paths: yes
